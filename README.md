@@ -3,6 +3,7 @@
 <img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Alisha%20Kamat%20-%20Joomla.png">
 
 ## Introduction
+<b>Project Idea: </b> [SEO Project Link](https://docs.joomla.org/GSoC_2022_Project_Ideas#Project_III:_SEO)
 <b>Initial Project Workplan:</b> [Initial Workplan Link](https://docs.google.com/document/d/14N_4oAD4ZLIfuPH0T9GaAHSIE8pOGd00uEMdayuhonE/edit)<br>
 <b>Project Repository:</b> [Repo Link](https://github.com/joomla-projects/gsoc22_seo)<br>
 <b>Weekly Reports:</b> [Reports Link](https://volunteers.joomla.org/teams/gsoc-2022-seo#reports)<br>
