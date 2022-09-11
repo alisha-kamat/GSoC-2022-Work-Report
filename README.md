@@ -55,6 +55,7 @@ S.No. | Task | Link to Plugin
 <hr>
 
 ## Core Features
+
 ### Google SERP Preview
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/7)<br><br>
 This new feature gives Joomla content creators an idea of how their article will appear to the end users on search engines. It becomes extremely important for the content creator to customize this piece of information as there is limited space available.<br>
@@ -187,4 +188,4 @@ Also also to my fellow GSoC student contributors - [Shazma Siddiqui](https://git
 <hr>
 
 ## Future Roadmap
-
+Once those are completed, I can revisit the previous plugins and then iteratively work on them to enhance the functionality.
