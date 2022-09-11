@@ -186,10 +186,9 @@ It helps customise a page’s metadata so that it’s easier for search engines 
 <hr>
 
 ## Mentors
-Thank you to my mentors [Elisa Foltyn](), [Phil Walton]() and [Benjamin Trenkle]() for being pillars of support and encouraging me to push my capabilities beyond what I could have done on my own.
+Thank you to my mentors [Elisa Foltyn](https://github.com/coolcat-creations), [Phil Walton](https://github.com/softforge) and [Benjamin Trenkle](https://github.com/bembelimen) for being pillars of support and encouraging me to push my capabilities beyond what I could have done on my own.
 
-Special Thanks to Richard Fath and Christiane Maier-Stadther <br>
-Also also to my fellow GSoC student contributors - [Shazma Siddiqui](https://github.com/shazmasiddiqui), [Khushi Rauniyar](https://github.com/khu5h1) and [Shubham Verma](https://github.com/Shubhamverma2796)
+Special Thanks to [Richard Fath](https://github.com/richard67) and [Christiane Maier-Stadtherr](https://github.com/chmst) <br>
 
 <hr>
 
