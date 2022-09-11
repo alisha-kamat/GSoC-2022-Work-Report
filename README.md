@@ -1,14 +1,16 @@
 # Joomla! SEO Project | GSoC 2022
 
-![GSoC2022-AlishaKamat-](https://user-images.githubusercontent.com/84401192/189527186-05234942-7e24-4d49-9b99-7566ae28a8bd.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Alisha%20Kamat%20-%20Joomla.png">
 
 ## Introduction
+<b>Project Idea: </b> [SEO Project Link](https://docs.joomla.org/GSoC_2022_Project_Ideas#Project_III:_SEO)<br>
 <b>Initial Project Workplan:</b> [Initial Workplan Link](https://docs.google.com/document/d/14N_4oAD4ZLIfuPH0T9GaAHSIE8pOGd00uEMdayuhonE/edit)<br>
-<b>Project Repository:</b> [Repo Link](https://github.com/joomla-projects/gsoc22_seo)<br>
+<b>My Project Repository:</b> [Repo Link](https://github.com/joomla-projects/gsoc22_seo)<br>
 <b>Weekly Reports:</b> [Reports Link](https://volunteers.joomla.org/teams/gsoc-2022-seo#reports)<br>
+<b>Blog: </b> [Blog 1 Link](https://community.joomla.org/gsoc-2022/gsoc-project-alisha-kamat-seo.html)<br>
 <b>Joomla CMS Repository:</b> [Repo Link](https://github.com/joomla/joomla-cms)<br>
 
-Core features covers 9 tasks:
+Original Scope covers 9 tasks (Joomla Core Updates):
 <ol>
   <li>New SEO tab</li>
   <li>Dofollow / Nofollow checker for outgoing links</li>
@@ -22,7 +24,7 @@ Core features covers 9 tasks:
 </ol>
 
 
-Bonus tasks include:
+Bonus work completed:
 - Social Media Share buttons (added to Joomla core)
 - Content Analysis Plugin
 - Open Graph Plugin
@@ -56,6 +58,10 @@ S.No. | Task | Link to Plugin
 
 ## Core Features
 
+The following image shows the first 4 features added to Joomla's core.
+
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/SEO%201.png">
+
 ### Google SERP Preview
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/7)<br><br>
 This new feature gives Joomla content creators an idea of how their article will appear to the end users on search engines. It becomes extremely important for the content creator to customize this piece of information as there is limited space available.<br>
@@ -73,17 +79,20 @@ A simple way to measure the page’s core web vitals with a single click. It pro
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/3)<br><br>
 This allows the admin to monitor the external links of the article and categorize them as dofollow and nofollow. It will enable developers to prevent ‘link juice’ from flowing out to unwanted sites based on the external site's credibility. Admins can choose to retain or change the ‘rel’ directive (from dofollow to nofollow or vice versa) by going to the 'Content' tab on the same page. They can even choose to remove the link altogether.
 
+<hr>
+
+The following image shows the next 3 features added to Joomla's core.
+
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/SEO%202.png">
+
 ### Readability Rating [Flesch Kincaid]
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/8)<br><br>
-This feature provides a rating based on the article’s difficulty level. It also highlights where the rating falls in the difficulty range. Rather than simply relying on a rating, the target audience should also be considered before making changes.
+This feature provides a rating based on the article’s difficulty level. It also highlights where the rating falls in the difficulty range. Rather than simply relying on a rating, the target audience should also be considered before making changes.<br><br>
 For instance, an academic article may typically have a lower rating (a significantly high difficulty level for average readers) but the target audience (university grads) won’t find it too difficult to comprehend.
-
-![image](https://user-images.githubusercontent.com/84401192/189531480-53cbaa1f-00f4-4a57-a3a9-a4f6ddec7bd2.png)
-
 
 ### Paragraph structure
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/5)<br><br>
-Having a concise paragraph structure is ideal for SEO and also improves the article's readability especially on smaller screens. Nowadays, people prefer audio/video content over text content. Attention spans are dropping. This makes it crucial for text content creators to capture the reader’s attention. One way to do that is by including crisp and short paragraphs as opposed to long and tedious ones that are difficult to read.
+Having a concise paragraph structure is ideal for SEO and also improves the article's readability especially on smaller screens. Nowadays, people prefer audio/video content over text content. Attention spans are dropping. This makes it crucial for text content creators to capture the reader’s attention. One way to do that is by including crisp and short paragraphs as opposed to long and tedious ones that are difficult to read.<br><br>
 Having an ideal paragraph structure improves an article's discoverability on search engines. This feature assists in keeping article paragraphs short and easy to read for viewers. It lists down the top 5 paragraphs that exceed the word limit along with the word count in brackets. Currently the limit for each paragraph has been set to a maximum of 200 words
  
 ### Sentence Structure
@@ -98,7 +107,7 @@ Currently the proof of concept works for
 - The image fields under the Images and Links tab in Article Edit view
 - Two formats, 'png' and 'jpeg'
 
-The compression feature is optional (controlled using the enable/disable toggle) and gets triggered when the user saves the article. For a successful compression operation, it also stores a backup of the original image as ```filename_orig```
+The compression feature is optional (controlled using the enable/disable toggle) and gets triggered when the user saves the article. For a successful compression operation, it also stores a backup of the original image as ```filename_orig```.
 
 The compression feature is optional (controlled using the enable/disable toggle) and gets triggered when the user saves the article. For a successful compression operation, it also stores a backup of the original image as filename_orig.
 It provides the user with 3 compression options
@@ -106,7 +115,7 @@ It provides the user with 3 compression options
 - Medium Compression - Medium quality
 - High Compression - Low quality
 
-![image](https://user-images.githubusercontent.com/84401192/189530294-76b959b3-b74a-4e48-b21c-e3e2d7b59f9c.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Image%20Compression.png">
 
 ### Open Graph
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/9)<br><br>
@@ -122,70 +131,67 @@ Article Author
 ### Social Media Share buttons
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/15)<br><br>
 Social media is one of the most popular ways to gain visitors to any website. But currently Joomla doesn't offer any sharing feature.
-This feature attempts to bridge that gap by offering options for single-click sharing to the most commonly used social media platforms
-Currently this feature allows sharing to only 3 social media platforms. This feature can then be extended to include additional social media icons as required
+This feature attempts to bridge that gap by offering options for single-click sharing to the most commonly used social media platforms.<br><br>
+Currently this feature allows sharing to only 3 social media platforms. This feature can then be extended to include additional social media icons as required.
 Instead of providing a rigid set of options, the Social Media Share tab offers several settings that allows the user to select the preferred list of social media icons to display on the article page. This is done as follows.
 - Clicking on show sharebox will display all the available social media platforms for sharing
 - The user can then choose to enable social media sharing for the selected list of platforms
 - If the user chooses to hide the sharebox options, no social media icon is displayed on the article's frontend
  
-These settings can be updated by going to System->Global Configuration->Articles->Social Media Share
+These settings can be updated by going to System->Global Configuration->Articles->Social Media Share.
 
-![image](https://user-images.githubusercontent.com/84401192/189530541-11154c87-f4f4-4ca6-894d-b60cd62963f8.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Social%20Media%20Share.png">
 
 <hr>
 
 ## Joomla Plugins
-### Content Analysis Plugin
+### 1. Content Analysis Plugin
 [Link to Plugin](https://github.com/joomla-projects/gsoc22_seo/tree/content-analysis-plugin)<br><br>
 It has five different features combined into one plugin. It highlights the aspects of the article that need improvement and provides suggestions for refinement.<br>
 The article's title and meta description are important parameters. These are the first to be noticed by end users when an article shows up on search engines. So it becomes extremely important for the content creator to customize this piece of information as there is limited space available. This plugin helps the Joomla content creator improve these parameters.
 
-![image](https://user-images.githubusercontent.com/84401192/189530843-0696c551-61a0-416d-a032-67cec327bef2.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Content%20Plugin.png">
 
-### Open Graph Plugin
+### 2. Open Graph Plugin
 [Link to Plugin](https://github.com/joomla-projects/gsoc22_seo/tree/opengraph)<br><br>
 This gives Joomla content creators the ability to customise their article previews when it’s being shared on social networking sites
 
 Here’s how Facebook uses open graph data when an article is shared.
 
-![image](https://user-images.githubusercontent.com/84401192/189531039-acaa8722-2938-4ff8-a454-0e5370e90c2b.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Facebook%20OG.png">
 
 After the plugin has been installed and enabled, move to the article's frontend and click on View page source. Here's what it'll show. All the additional open graph data can be seen in the highlighted section (all the meta tags beginning with 'og:' and 'article:').
 
-![image](https://user-images.githubusercontent.com/84401192/189531029-4d0ba654-c1f9-4737-831c-c66958279b95.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/OG%20View%20Page%20Source.png">
 
 In the backend, the plugin creates a new tab called Open Graph where the following parameters can be updated.
 
-![image](https://user-images.githubusercontent.com/84401192/189531023-7eaa6788-cba8-45be-89ce-5b9b104ddd64.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/OG%20Backend.png">
 
-### Previews Plugin
+### 3. Previews Plugin
 [Link to Plugin](https://github.com/joomla-projects/gsoc22_seo/tree/preview)<br><br>
 This plugin Provides Joomla content creators a glimpse of how the article will appear to the end users on Google search engines. 
 
-![image](https://user-images.githubusercontent.com/84401192/189531164-a86f7383-af8f-4d0e-a026-1849b1445d43.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Preview%20Plugin.png">
 
 
-### Meta Data Plugin
+### 4. Meta Data Plugin
 [Link to Plugin](https://github.com/joomla-projects/gsoc22_seo/tree/metadata)<br><br>
 It helps customise a page’s metadata so that it’s easier for search engines to determine the relevance of articles before displaying them in search results.
 
-![image](https://user-images.githubusercontent.com/84401192/189531177-b15ce11d-8262-492d-bdcb-a068e724ff98.png)
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/Meta%20Data%20Plugin.png">
 
 
 
 <hr>
 
 ## Mentors
-Thank you to 
-1. Elisa Foltyn
-2. Phil Walton
-3. Benjamin Trenkle
+Thank you to my mentors [Elisa Foltyn](https://github.com/coolcat-creations), [Phil Walton](https://github.com/softforge) and [Benjamin Trenkle](https://github.com/bembelimen) for being pillars of support and encouraging me to push my capabilities beyond what I could have done on my own.
 
-Special Thanks to Richard Fath and Christiane Maier-Stadther <br>
-Also also to my fellow GSoC student contributors - [Shazma Siddiqui](https://github.com/shazmasiddiqui), [Khushi Rauniyar](https://github.com/khu5h1) and [Shubham Verma](https://github.com/Shubhamverma2796)
+Special note of appreciation to [Richard Fath](https://github.com/richard67) and [Christiane Maier-Stadtherr](https://github.com/chmst) for the motivation and words of encouragement. <br>
 
 <hr>
 
 ## Future Roadmap
-Once those are completed, I can revisit the previous plugins and then iteratively work on them to enhance the functionality.
+These core features and plugins are still work in progress and they can be enhanced further. 
+Since our portfolio of SEO features would be a new addition to Joomla, the idea was to first demonstrate the proof of concept (with a minimum viable product). Based on the feedback from users on what works and what doesn’t, these features can be streamlined and polished. 
