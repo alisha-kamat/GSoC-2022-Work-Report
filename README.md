@@ -1,5 +1,4 @@
-# GSoC-2022-Work-Report
-Final Work Report for GSoC 2022 Joomla! SEO Project
+# Joomla! SEO Project | GSoC 2022
 
 ![GSoC2022-AlishaKamat-](https://user-images.githubusercontent.com/84401192/189527186-05234942-7e24-4d49-9b99-7566ae28a8bd.png)
 
@@ -10,7 +9,7 @@ Initial Project Workplan: [Initial Workplan Link](https://docs.google.com/docume
 Core features covers 9 tasks:
 <ol>
   <li>New SEO tab</li>
-  <liDofollow / Nofollow checker for outgoing links></li>
+  <li>Dofollow / Nofollow checker for outgoing links</li>
   <li>Performance check on PageSpeed Insights</li>
   <li>Paragraph structure</li>
   <li>Sentence Structure</li>
@@ -42,3 +41,11 @@ S.No. | Task | Project Repository PR
 8 | Open Graph | [PR #9](https://github.com/joomla-projects/gsoc22_seo/pull/9)
 9 | Image Compression | [PR #14](https://github.com/joomla-projects/gsoc22_seo/pull/14)
 10 | Social Media Share buttons | [PR #15](https://github.com/joomla-projects/gsoc22_seo/pull/15)
+
+## Plugins
+S.No. | Task | Link to Plugin
+--- | --- | ---
+1 | Content Analysis Plugin | [Link #1](https://github.com/joomla-projects/gsoc22_seo/tree/content-analysis-plugin)
+2 | Open Graph Plugin | [Link #2](https://github.com/joomla-projects/gsoc22_seo/tree/opengraph)
+3 | Previews Plugin | [Link #3](https://github.com/joomla-projects/gsoc22_seo/tree/preview)
+4 | Meta data Plugin | [Link #4](https://github.com/joomla-projects/gsoc22_seo/tree/metadata)
