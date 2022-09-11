@@ -49,3 +49,21 @@ S.No. | Task | Link to Plugin
 2 | Open Graph Plugin | [Link #2](https://github.com/joomla-projects/gsoc22_seo/tree/opengraph)
 3 | Previews Plugin | [Link #3](https://github.com/joomla-projects/gsoc22_seo/tree/preview)
 4 | Meta data Plugin | [Link #4](https://github.com/joomla-projects/gsoc22_seo/tree/metadata)
+
+<hr>
+
+<hr>
+
+## Mentors
+Thank you to 
+1. Elisa Foltyn
+2. Phil Walton
+3. Benjamin Trenkle
+
+Special Thanks to Richard Fath and Christiane Maier-Stadther <br>
+Also also to my fellow GSoC student contributors - [Shazma Siddiqui](https://github.com/shazmasiddiqui), [Khushi Rauniyar](https://github.com/khu5h1) and [Shubham Verma](https://github.com/Shubhamverma2796)
+
+<hr>
+
+## Future Roadmap
+
