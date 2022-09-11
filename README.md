@@ -60,7 +60,7 @@ S.No. | Task | Link to Plugin
 
 The following image shows the first 4 features added to Joomla's core.
 
-<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/34f2f1a96adb262b5b4470e8b77e270b0d8de405/images/SEO%201.png">
+<img src="https://github.com/alisha-kamat/GSoC-2022-Work-Report/blob/812d6f45b00154abb99b40dfc1a801278e477d3a/images/SEO%201.png">
 
 ### Google SERP Preview
 [Link to PR](https://github.com/joomla-projects/gsoc22_seo/pull/7)<br><br>
