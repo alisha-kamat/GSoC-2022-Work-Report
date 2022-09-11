@@ -193,5 +193,4 @@ Special note of appreciation to [Richard Fath](https://github.com/richard67) and
 <hr>
 
 ## Future Roadmap
-These core features and plugins are still work in progress and they can be enhanced further. 
 Since our portfolio of SEO features would be a new addition to Joomla, the idea was to first demonstrate the proof of concept (with a minimum viable product). Based on the feedback from users on what works and what doesn’t, these features can be streamlined and polished. 
