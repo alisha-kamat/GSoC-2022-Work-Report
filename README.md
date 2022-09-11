@@ -188,7 +188,7 @@ It helps customise a page’s metadata so that it’s easier for search engines 
 ## Mentors
 Thank you to my mentors [Elisa Foltyn](https://github.com/coolcat-creations), [Phil Walton](https://github.com/softforge) and [Benjamin Trenkle](https://github.com/bembelimen) for being pillars of support and encouraging me to push my capabilities beyond what I could have done on my own.
 
-Special Thanks to [Richard Fath](https://github.com/richard67) and [Christiane Maier-Stadtherr](https://github.com/chmst) <br>
+Special note of appreciation to [Richard Fath](https://github.com/richard67) and [Christiane Maier-Stadtherr](https://github.com/chmst) for the motivation and words of encouragement. <br>
 
 <hr>
 
